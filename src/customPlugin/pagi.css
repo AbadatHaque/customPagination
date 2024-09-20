@@ -1,0 +1,29 @@
+.pagiContainer{
+    display: flex;
+    flex-direction: row;
+}
+.pagiContainer >*{
+    cursor: pointer;
+    padding: 10px 15px;
+    border:2px solid black;
+    margin: 0;
+    border-radius: 0px;
+    
+}
+.pagiContainer p{
+    border-left:none;
+}
+.pagiContainer .Active{
+    background-color: rgb(64, 62, 62);
+    color: white;
+}
+.pagiContainer button:focus{
+    outline: none !important;
+}
+.pagiContainer button:last-child{
+    border-left:none;
+}
+
+.pagiContainer .info, .handelRecord{
+    border: none;
+}
